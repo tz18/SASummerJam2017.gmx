@@ -16,6 +16,7 @@
     <script>scripts\truck_step.gml</script>
     <script>scripts\truck_create.gml</script>
     <script>scripts\truck_gui.gml</script>
+    <script>scripts\truck_handlekeys.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\truck</object>
