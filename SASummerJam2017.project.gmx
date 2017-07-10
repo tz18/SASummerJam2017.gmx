@@ -9,7 +9,9 @@
     <sprite>sprites\sprite0</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\road</background>
     <background>background\drivingmockup</background>
+    <background>background\trees</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -17,9 +19,12 @@
     <script>scripts\truck_create.gml</script>
     <script>scripts\truck_gui.gml</script>
     <script>scripts\truck_handlekeys.gml</script>
+    <script>scripts\background_create.gml</script>
+    <script>scripts\background_step.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\truck</object>
+    <object>objects\background</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\driving</room>

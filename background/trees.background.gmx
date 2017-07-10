@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>900</width>
-  <height>614</height>
-  <data>images\drivingmockup.png</data>
+  <width>420</width>
+  <height>236</height>
+  <data>images\trees.png</data>
 </background>
