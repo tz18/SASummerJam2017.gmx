@@ -5,9 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite0</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\drivingmockup</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\truck_step.gml</script>
+    <script>scripts\truck_create.gml</script>
+    <script>scripts\truck_gui.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\truck</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\driving</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
