@@ -34,7 +34,10 @@
       <script>scripts\background_create.gml</script>
       <script>scripts\background_step.gml</script>
     </scripts>
-    <script>scripts\car_handlekeys.gml</script>
+    <scripts name="top_driving">
+      <script>scripts\car_create.gml</script>
+      <script>scripts\car_handlekeys.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\truck</object>
@@ -42,8 +45,8 @@
     <object>objects\kawaii_car</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\side_driving</room>
     <room>rooms\top_driving</room>
+    <room>rooms\side_driving</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
