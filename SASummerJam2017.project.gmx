@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\kawaii_truck_side</sprite>
     <sprite>sprites\kawaii_car_top</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="sideview">
@@ -27,22 +28,24 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="side_driving">
-      <script>scripts\truck_step.gml</script>
       <script>scripts\truck_gui.gml</script>
       <script>scripts\truck_create.gml</script>
       <script>scripts\truck_handlekeys.gml</script>
       <script>scripts\background_create.gml</script>
       <script>scripts\background_step.gml</script>
+      <script>scripts\truck_step.gml</script>
     </scripts>
     <scripts name="top_driving">
       <script>scripts\car_create.gml</script>
       <script>scripts\car_handlekeys.gml</script>
+      <script>scripts\shoot_gun.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\truck</object>
     <object>objects\background</object>
     <object>objects\kawaii_car</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\top_driving</room>
